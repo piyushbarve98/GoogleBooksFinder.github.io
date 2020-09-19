@@ -49,7 +49,9 @@ h1{
     box-shadow: 3px 3px 4px 3px #000;
     border-radius: 20px;
       
-    background-image: linear-gradient(to bottom right,rgba(18, 76, 94, 0.705),rgba(21, 90, 240, 0.712));
+    /* background-image: linear-gradient(to bottom right,rgba(18, 76, 94, 0.705),rgba(21, 90, 240, 0.712)); */
+    background-size: cover;
+    background-image: url('3661950.jpg');
     
 }
 
@@ -101,7 +103,7 @@ button{
     /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% ); */
     /* background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% ); */
 
-    /* background: linear-gradient(to right, #0575e6, #021b79); */
+    
     background-color: rgba(15, 70, 252, 0.664);
 }
 
@@ -125,7 +127,8 @@ button:hover{
     
     box-shadow: 3px 3px 4px 3px #000;
     border-radius: 20px;
-    background-image: linear-gradient(to bottom right,rgba(18, 76, 94, 0.705),rgba(21, 90, 240, 0.712));
+    background-size: cover;
+    background-image: url('3661950.jpg');
     
 }
 .dark{
@@ -143,7 +146,9 @@ button:hover{
 .darkDiv .container{
     box-shadow: 3px 3px 5px 6px #000;
     background-color: rgba(0, 0, 255, 0);
-    background-image: none;
+    background-size: cover;
+    background-image: url('pexels-bongkarn-thanyakij-3815760.jpg');
+    
     
 }
 .darkDiv .container input{
@@ -154,8 +159,9 @@ button:hover{
 .darkDiv .result div{
     box-shadow: 3px 3px 5px 6px #000;
     color: white;
+    background-size: cover;
     background-color: rgba(0, 0, 255, 0);
-    background-image: none;
+    background-image: url(pexels-bongkarn-thanyakij-3815760.jpg);
     
     
 }
