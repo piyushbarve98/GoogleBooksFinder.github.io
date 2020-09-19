@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap";
 /* @import "https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"; */
 @import "https://fonts.googleapis.com/css2?family=Ranchers&display=swap";
+
 *{
     padding: 0px;
     margin:0px;
@@ -18,6 +19,7 @@ body{
 /* background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
 /* background: linear-gradient(to right, #2F80ED, #56CCF2); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 background-color: rgba(44, 132, 233, 0.733);
+
 }
 .first-div{
     display: flex;
@@ -31,7 +33,7 @@ h1{
     /* font-family: 'Raleway', sans-serif; */
     letter-spacing: 3px;
     font-family: 'Ranchers', cursive;
-    color: rgb(0, 81, 255);
+    color: white;
     font-size: 40px;
     margin-bottom: 20px;
 }
