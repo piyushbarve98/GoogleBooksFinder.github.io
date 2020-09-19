@@ -1,0 +1,193 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap";
+/* @import "https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"; */
+@import "https://fonts.googleapis.com/css2?family=Ranchers&display=swap";
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    /* background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); */
+    /* background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+    background: #56CCF2;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2F80ED, #56CCF2); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+background-color: rgba(44, 132, 233, 0.733);
+}
+.first-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 30px;
+    /* font-family: 'Raleway', sans-serif; */
+    letter-spacing: 3px;
+    font-family: 'Ranchers', cursive;
+    color: rgb(0, 81, 255);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    /* box-shadow: 3px 3px 5px 6px #ccc; */
+    box-shadow: 3px 3px 4px 3px #000;
+    border-radius: 20px;
+    background-color: rgba(33, 117, 243, 0.692);
+    
+}
+
+.container input{
+    width: 70%;
+    font-size: 17px;
+    padding: 7px 14px;
+    font-family: 'Quicksand', sans-serif;
+    border:none;
+    border-bottom: 7px solid rgb(0, 89, 255);
+    border-radius: 20px;
+}
+
+
+.result{
+    
+    width: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+}
+.result p{
+    font-size: 30px;
+    
+}
+.result img{
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+button{
+    margin-top: 10px;
+    width: 20%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border:none;
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% ); */
+    /* background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% ); */
+
+    /* background: linear-gradient(to right, #0575e6, #021b79); */
+    background-color: rgba(15, 70, 252, 0.664);
+}
+
+button:hover{
+    
+    
+
+    background-image: none;
+    background-color: rgba(0, 60, 255, 0.904);
+}
+
+.result div{
+    width: 60%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: 3px 3px 5px 6px #ccc; */
+    padding: 30px;
+    margin: 20px;
+    
+    box-shadow: 3px 3px 4px 3px #000;
+    border-radius: 20px;
+    background-color: rgba(33, 117, 243, 0.692);
+    
+}
+.dark{
+    width:50%;
+}
+/* code for the dark mode */
+.darkDiv{
+    
+    
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+}
+.darkDiv h1{
+    color: white;
+}
+.darkDiv .container{
+    box-shadow: 3px 3px 5px 6px #000;
+    background-color: rgba(0, 0, 255, 0);
+    
+}
+.darkDiv .container input{
+    background-color: rgb(37, 31, 31);
+    color: white;
+    border-color: rgba(233, 17, 28, 0.829);
+}
+.darkDiv .result div{
+    box-shadow: 3px 3px 5px 6px #000;
+    color: white;
+    background-color: rgba(0, 0, 255, 0);
+    
+    
+}
+.darkDiv button{
+    background-color:rgba(20, 20, 20, 0.767);
+}
+.darkDiv button:hover{
+    background-color:rgb(0, 0, 0);
+}
+
+
+/* media query section  */
+
+@media only screen and (max-width:500px){
+    html{
+        font-size: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .container{
+        width: 60%;
+    }
+    .container input{
+        width : 120%;
+    }
+    .btn{
+        width: 50%;
+    }
+    .result div{
+        width: 85%;
+    }
+    
+    .result div button{
+        width: 70%;
+    }
+    .result div p{
+        font-size: 23px;
+    }
+}
