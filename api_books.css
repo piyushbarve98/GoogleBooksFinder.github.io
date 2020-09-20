@@ -138,7 +138,7 @@ button:hover{
 .darkDiv{
     
     
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgb(60, 94, 107) 90% );
 }
 .darkDiv h1{
     color: white;
@@ -147,7 +147,7 @@ button:hover{
     box-shadow: 3px 3px 5px 6px #000;
     background-color: rgba(0, 0, 255, 0);
     background-size: cover;
-    background-image: url('pexels-bongkarn-thanyakij-3815760.jpg');
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
     
     
 }
@@ -161,8 +161,7 @@ button:hover{
     color: white;
     background-size: cover;
     background-color: rgba(0, 0, 255, 0);
-    background-image: url(pexels-bongkarn-thanyakij-3815760.jpg);
-    
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
     
 }
 .darkDiv button{
